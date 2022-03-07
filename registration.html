@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bc.uchet</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<link rel="stylesheet"  href="bcuchet.css">
+	<script src="https://kit.fontawesome.com/f65c4ed461.js" crossorigin="anonymous"></script>
+	<link rel="icon"  href="logo.jpeg">
+</head>
+<body>
+	<section class = "sub-header">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav  ml-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="bcuchet.html">HOME</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="about.html">ABOUT</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="services.html">SERVICES</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="contact.html">CONTACT</a>
+			</li>
+		</ul>
+	</div>
+	</nav>
+	<h1>REGISTRATION</h1>
+	</section>
+	<section class="REGISTRATION">
+		<button id="btn1">Change height & width</button>
+        <button id="btn2">Reset</button>
+        <div class="container">
+            <div class="main" id="registrate">
+                <form class="form" method="post" action="#">
+                    <h2> Registration Form </h2>
+                    <label>Username :</label>
+                    <input type="text" name="dname" id="name"><span id = "error"></span><br>
+                    <label>Password :</label>
+                    <input type="password" name="password" id="password">
+                    <label>Confirm Password :</label><span id = "error1"></span><br>
+                    <input type="password" name="cpassword" id="cpassword">
+                    <label><input type="checkbox" class="password-checkbox">Show Password</label><br>
+                    <input type="button" name="register" id="register" value="Register">
+                </form>
+            </div>
+        </div>
+	</section >
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="bcuchet.js"></script>
+</body>
